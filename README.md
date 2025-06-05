@@ -20,3 +20,7 @@ The service exposes a `POST /generate` endpoint that accepts a JSON payload with
 Open `ui/index.html` in your browser. Enter a prompt and submit. The page will call the API endpoint and display the generated image.
 
 This project contains only a placeholder image generator. Integrate your text-to-image model inside `service.py` where noted.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
