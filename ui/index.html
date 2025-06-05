@@ -17,7 +17,7 @@
     <script>
         async function generate() {
             const prompt = document.getElementById('prompt').value;
-            const response = await fetch('/generate', {
+            const response = await fetch('https://cloudinfra-services.ubilink.ai/f03b5d13-c6d3-435d-9278-a5929bf9ac69/generate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ prompt })
