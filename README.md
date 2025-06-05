@@ -6,7 +6,7 @@ This repository provides a simple web UI for interacting with a text-to-image mo
 
 1. Install dependencies:
    ```bash
-   pip install bentoml pillow
+   pip install -r requirements.txt
    ```
 2. Start the Bento service:
    ```bash
