@@ -1,25 +1,13 @@
 # Text-to-Image UI
 
-This repository provides a simple web UI for interacting with a text-to-image model served with BentoML.
-
-## Running the Service
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Start the Bento service:
-   ```bash
-   bentoml serve service:svc
-   ```
-
-The service exposes a `POST /generate` endpoint that accepts a JSON payload with a `prompt` field and returns an image.
+This repository provides a simple web UI for generating images from a text prompt using a hosted API.
 
 ## Using the UI
 
-Open `ui/index.html` in your browser. Enter a prompt and submit. The page will call the API endpoint and display the generated image.
+Open `ui/index.html` in your browser. Enter a prompt and submit. The page will call the remote API at
+`https://cloudinfra-services.ubilink.ai/f03b5d13-c6d3-435d-9278-a5929bf9ac69/generate` and display the generated image.
 
-This project contains only a placeholder image generator. Integrate your text-to-image model inside `service.py` where noted.
+The previous BentoML service and placeholder model are no longer required to generate images.
 
 ## License
 
